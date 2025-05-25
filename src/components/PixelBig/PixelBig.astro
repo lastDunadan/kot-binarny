@@ -1,0 +1,11 @@
+---
+import styles from './PixelBig.module.css';
+import type { PixelBigProps } from './PixelBig.types';
+
+const { top, left } = Astro.props as PixelBigProps;
+---
+
+<div
+    class={styles.pixelBig}
+    style={`top: ${top}%; left: ${left}%;`}
+/>

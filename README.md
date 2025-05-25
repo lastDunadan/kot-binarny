@@ -1,4 +1,4 @@
-![logo.svg](public/logo.svg)
+![logo.svg](public/images/logo.svg)
 # Kot Binarny
 Website for the **Kot Binarny** freelancing agency. Made with [Astro](https://astro.build).
 

@@ -1,0 +1,15 @@
+---
+import { Image } from 'astro:assets';
+import styles from './Logo.module.css';
+---
+
+<div class={styles.logoWrapper}>
+  <Image
+    src="/images/logo.svg"
+    alt="Logo"
+    width={372}
+    height={285}
+    class="w-24 h-24"
+  />
+    <h1>Kot Binarny</h1>
+</div>

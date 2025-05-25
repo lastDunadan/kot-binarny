@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Tomorrow';
+  src: url('/fonts/Tomorrow-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Tomorrow';
+  src: url('/fonts/Tomorrow-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Tomorrow', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: clip;
+  color: #fff;
+  background: linear-gradient(300deg,#673191,#320081,#673191);
+  background-size: 180% 180%;
+  background-repeat: no-repeat;
+  animation: gradient-animation 30s ease infinite;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
